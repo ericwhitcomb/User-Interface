@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /* default */
 body {
 	font-family: 'Titillium Web', sans-serif;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 a {
@@ -87,12 +87,9 @@ h1, h2 {
 
 /* nav */
 .navbar {
-	background-color: dodgerblue;
 	padding: 10px 0px;
 	width: 100%;
-	position: fixed;
-	top: 0;
-	z-index: 1;
+	position: relative;
 }
 
 .navbar nav {
@@ -102,9 +99,10 @@ h1, h2 {
 }
 
 .navbar nav a {
-	color: lightgrey;
-	margin-right: 60px;
+	color: darkgrey;
+	margin-right: 55px;
 	vertical-align: top;
+	font-weight: bold;
 }
 
 .navbar img.logo {
