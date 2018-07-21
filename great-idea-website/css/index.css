@@ -97,9 +97,11 @@ a {
 }
 
 .navbar nav a {
-	color: darkgrey;
-	margin-right: 55px;
+	color: lightgrey;
+	margin-right: 50px;
 	vertical-align: top;
+	font-weight: bold;
+	font-family: 'Coda Caption', sans-serif;
 	font-weight: bold;
 }
 
