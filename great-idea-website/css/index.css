@@ -105,6 +105,12 @@ a {
 	right: 0px;
 }
 
+.navbar .nav-image {
+	background-image: url("/User-Interface/great-idea-website/img/logo.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
 /* header */
 header {
 	padding: 60px 0px;
