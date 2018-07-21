@@ -100,9 +100,12 @@ a {
 	color: lightgrey;
 	margin-right: 50px;
 	vertical-align: top;
-	font-weight: bold;
 	font-family: 'Coda Caption', sans-serif;
 	font-weight: bold;
+}
+
+.navbar nav a:hover {
+    animation: nav-hover 0.25s forwards;
 }
 
 .navbar img.logo {
@@ -146,6 +149,11 @@ header section a {
 	text-align: center;
 	margin-top: 20px;
 	font-weight: bold;
+	animation: button-out 0.5s forwards;
+}
+
+header section a:hover {
+	animation: button-hover 0.5s forwards;
 }
 
 header img {
@@ -194,3 +202,29 @@ footer p {
 	margin: 50px 0px;
 	text-align: center;
 }
+
+/* animations */
+@keyframes nav-hover {
+    to {
+		color: darkgrey;
+	}
+}
+
+@keyframes button-hover {
+	from {
+		font-size: 1.0em;
+	}
+	to {
+		font-size: 1.3em;
+	}
+}
+
+@keyframes button-out {
+	from {
+		font-size: 1.3em;
+	}
+	to {
+		font-size: 1.0em;
+	}
+}
+
